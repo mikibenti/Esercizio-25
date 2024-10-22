@@ -11,7 +11,7 @@
         $n2 = $_GET["n2"];
         if ($n1 == "" || $n2 == "") {
             echo "<p style='background-color:red'>Errore, uno dei due numeri è vuoto</p>";
-
+            echo "<a href='es25.html'>Torna Indietro</a>";
         } else {
             echo 
             "<ul>
